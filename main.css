@@ -1,0 +1,18 @@
+body {
+    margin-top: 5%;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#education {
+    text-align: center;
+}

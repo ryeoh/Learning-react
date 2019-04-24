@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sally Student Resume</title>
+  <link href="main.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script src="https://unpkg.com/react@16/umd/react.development.js"
+  crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+  crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"
+  crossorigin></script>
+
+  <script type="text/babel">   
+    function App() {
+      return (
+        <body> 
+          <header>
+            <h1>SALLY STUDENT</h1>
+            <h2>An aspiring web developer</h2>
+            <img src="http://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg" alt="Picture of myself" />
+            <address>
+              sallystudent@gmail.com | (123) 456-7890
+            </address>
+          </header>
+
+          <main>
+            <section id="experience">
+              <h3>EXPERIENCE</h3>
+                <h4>Web Developer @ Marketing Management Firm</h4>
+                <ul>
+                  <li>January 31, 2018 - present</li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fringilla velit eu tellus rhoncus suscipit. Quisque dictum facilisis mauris eget viverra. Nullam cursus urna vel tincidunt tristique. Quisque neque velit, porta ut tortor sed, scelerisque semper nulla. Pellentesque non venenatis erat. Phasellus nibh dolor, volutpat sit amet orci eget, laoreet ultricies velit.</li>
+                </ul>
+              <h4>Front-End Developer @ SMSU, Inc.</h4>
+              <ul>
+                <li>December 14, 2016 - January 5, 2018</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fringilla velit eu tellus rhoncus suscipit. Quisque dictum facilisis mauris eget viverra. Nullam cursus urna vel tincidunt tristique. Quisque neque velit, porta ut tortor sed, scelerisque semper nulla. Pellentesque non venenatis erat. Phasellus nibh dolor, volutpat sit amet orci eget, laoreet ultricies velit.</li>
+              </ul>
+            </section>
+
+            <section id="education">
+              <h3>EDUCATION</h3>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Seal_of_University_of_California%2C_Berkeley.svg/1200px-Seal_of_University_of_California%2C_Berkeley.svg.png" alt="UC Berkeley logo" height="200" width="200" /> 
+              <h4> University of California, Berkeley</h4>
+              <p>B.S. in Computer Science</p>
+            </section>
+          </main>
+        </body>
+      );
+    }
+
+    ReactDOM.render(
+      <App />,
+      document.querySelector('#root')
+    );
+  </script>
+
+</body>
